@@ -7,7 +7,7 @@ permalink: /about/
 
 # ID:WinterCat
 
-# Email:SummerSnowWinterCat
+# Email:SummerSnowWinterCat@gmail.com
 
 # [■■■■■■■■■■■■■■■■■■■..]99.9%
 
