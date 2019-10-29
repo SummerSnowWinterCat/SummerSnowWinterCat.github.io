@@ -7,14 +7,14 @@ categories:
 
 # Python MyQR
 
-1.install MyQR
+# 1.install MyQR
 
 ```python
 pip install MyQR
 pip3 install MyQR
 ```
 
-2.create py file
+# 2.create py file
 
 ```python
 from MyQR import myqr
@@ -31,5 +31,6 @@ import os # this  import is os path support
 )
 ```
 
-3.run py.file
+
+# 3.run py.file
 
