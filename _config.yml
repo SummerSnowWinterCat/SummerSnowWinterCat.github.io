@@ -1,14 +1,14 @@
 # Example Site settings
+# google research
+google_analytics: UA-151151983-1
 
-#google_analytics: UA-NNNNNNNN-N
+header_pages:
+  - index.md
+  - about.md
 
-#header_pages:
-#  - index.md
-#  - about.md
+footer: 'follow me on <a href="https://github.com/summersnowwintercat/">github</a>'
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
-#style: light # dark (default) or light
+style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
