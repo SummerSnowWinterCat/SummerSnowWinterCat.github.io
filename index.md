@@ -5,4 +5,6 @@ permalink: /
 ---
 
 # WinterCat-Console
-# >> ~/.git
+# cd WinterCat/Blog/
+# read WinterCat.md
+
