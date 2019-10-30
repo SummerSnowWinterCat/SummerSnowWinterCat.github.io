@@ -5,6 +5,6 @@ permalink: /
 ---
 
 # WinterCat-Console
-# cd WinterCat/Blog/
-# read WinterCat.file
+# WinterCat@System:~$ Search MarkDown 
+# 
 
