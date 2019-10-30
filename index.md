@@ -6,5 +6,5 @@ permalink: /
 
 # WinterCat-Console
 # cd WinterCat/Blog/
-# read WinterCat.md
+# read WinterCat.file
 
