@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RaspberryPiZERO VNC and WIFI Config"
+title: "RaspberryPiZERO VNC and WIFI Config「Windows」"
 date: 2018-09-18 20:10:10 +0900
 categories:
 ---
