@@ -7,40 +7,42 @@ categories:
 
 # About raspberrypi zero VNC Connection
 
-    1.下载Win32 DiskManager 
+    1.Download Win32 DiskManager 
     
-    2.下载SD CARD Formatter
+    2.Download SD CARD Formatter
     
-    3.下载RASPBIAN 
+    3.Download RASPBIAN 
+        version:
+    ​	    <raspbian desktop or raspbian lite>
+                    desktop or command line 
+    ​	            桌面版(GUI)和命令行
     
-    ​	raspbian desktop or raspbian lite
+    4.SD Card Formatter (Formatter TF Card and Use the DiskManager)
+    4.1.SD CARD FORMATTER 对TF卡进行格式化后，使用WIN32 DiskManager进行写入
     
-    ​	命令行版和桌面版(GUI)
-    
-    4.SD CARD FORMATTER 对TF卡进行格式化后，使用WIN32 DiskManager进行写入
-    
-    5.写入完成后 打开BOOT 进入根目录
-
-    ​	创建一个空的ssh文件 无后缀
-    
-    ​	创建 wpa_supplicant.conf 文件 并用记事本编辑.
-    
-    ​	写入
+    5.Then find goto Boot File Root
+       5.0.写入完成后 打开BOOT 进入根目录
+    ​5.1.Create a new ssh file
+       5.1.0.创建一个空的ssh文件 无后缀    
+    ​	5.2.Create wpa_supplicant.conf file open with text_editor
+          5.2.0创建 wpa_supplicant.conf 文件 并用记事本编辑.
+        Create...
+    ​	>>>写入
         
             ```
-            country=JP // 地区
+            country=JP // Gobal Location
                 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
                 update_config=1
             
                 network={
-                    ssid="wifi的名字"
-                    psk="wifi的密码"
+                    ssid="wifi ssid"
+                    psk="wifi password"
                     key_mgmt=WPA-PSK
                     priority=1
                 }
             ```
 
-         保存并将TF卡插入RASPBERRY PI ZERO中
+         5.3.保存并将TF卡插入RASPBERRY PI ZERO中
     6.接通电源后 即可利用VNC或PuTTY进行连接
     
     ​6.1.raspberry pi zero的初始用户名为 pi 密码为 raspberrypi
