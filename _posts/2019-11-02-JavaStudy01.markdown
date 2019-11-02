@@ -13,5 +13,5 @@ public class WinterCatDemo{ //クラス名
 } //クラス END
 ```
 # OutPut:
-![2019-11-02 23.47.33](../assets/image/2019-11-02 23.47.33.png)
+![](../assets/image/2019-11-02 23.47.33.png)
 このようになります。
