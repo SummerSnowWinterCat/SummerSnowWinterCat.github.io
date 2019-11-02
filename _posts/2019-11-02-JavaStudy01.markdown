@@ -4,12 +4,14 @@ title: "JavaStudy-No.01"
 date: 2019-11-02 22:17:00 +0900
 categories:
 ---
-
+# Java Study No.01
 ```java
-public class WinterCatDemo{ //class name
-  	public static void main(String[] args){
+public class WinterCatDemo{ //クラス名
+  	public static void main(String[] args){　//Mainメソッド
      		System.out.println("Hello WinterCat!"); 
     }
-} //class end
+} //クラス END
 ```
-
+# OutPut:
+![2019-11-02 23.47.33](../assets/image/2019-11-02 23.47.33.png)
+このようになります。
