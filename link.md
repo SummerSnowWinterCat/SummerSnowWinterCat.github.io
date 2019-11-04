@@ -7,11 +7,11 @@ permalink: /link/
 >show links --list
 ```
 
-| **Information** | URL                        |
-| --------------- | -------------------------- |
-| Google          | <http://www.google.com/>   |
-| GitHub          | https://github.com/        |
-| ZhiHu           | https://www.zhihu.com      |
-| CSDN            | https://www.csdn.net/      |
-| Stack OverFlow  | https://stackoverflow.com/ |
+| **Information** | URL                       |
+| --------------- | ------------------------- |
+| Google          | <http://www.google.com/>  |
+| GitHub          | http://github.com/        |
+| ZhiHu           | http://www.zhihu.com/     |
+| CSDN            | http://www.csdn.net/      |
+| StackOverFlow   | http://stackoverflow.com/ |
 
