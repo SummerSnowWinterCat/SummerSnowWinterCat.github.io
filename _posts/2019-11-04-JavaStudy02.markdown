@@ -1,0 +1,76 @@
+---
+layout: post
+title: "JavaStudy-No.02"
+date: 2019-11-04 19:15:00 +0900
+categories:
+---
+# Java Study No.02
+```java
+public class WinterCatDemo{ //クラス名
+  	public static void main(String[] args){　//Mainメソッド
+      //基本的変数「宣言」
+            byte w =10;
+           short i =20;　　//short 範囲「-32768~32767」
+             int n =30;      
+            long t =40L;
+           float e  = 1.15F;
+          double r =5.78;
+            char c ='A';
+         boolean a =true;
+          String t = "WinterCat"
+    }
+} //クラス END
+```
+### リテラル
+
+1. 整数リテラル　＞「10進数、８進数、１６進数、２進数を表現」
+2. 浮動小数点数リテラル　＞「10進数、指数を表現」
+3. 文字リテラル　＞「一つの文字　『'A'』」
+4. 文字列リテラル　＞「複数文字の集合『"Hello"』　」
+5. 論理値リテラル　＞真「True」偽「False」
+6. nullリテラル　　＞何もなく
+
+### 変数の宣言と値の代入
+
+```Java
+//データ型　変数名
+//変数名　＝　値
+int cat ;
+cat = 100;
+```
+
+### 定数
+
+```Java
+//final データ型　定数名 = 初期値;
+final int cat = 100;
+cat = 200; // ERROR
+// 定数再代入できない
+```
+
+### 文字列
+
+```Java
+String cat ="Hello Cat";
+String test = "test";
+```
+
+### 識別子と予約語
+
+- １文字目 [a-z、A-Z]、ドル＄、＿　のみ
+- ２文字目数字使用可能
+- 予約語使用不可
+- 大文字、小文字は必ず丁寧に区別される
+- 文字数の制限はない
+
+### 配列
+
+```Java
+//データ型[] 配列名
+//配列名 = new データ型[要素数]
+int[] cat ;
+cat = new int[20];
+//------------------
+int[] cat = new cat[20];
+```
+
