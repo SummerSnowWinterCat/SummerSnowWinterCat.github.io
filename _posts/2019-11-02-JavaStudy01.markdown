@@ -12,8 +12,27 @@ public class WinterCatDemo{ //クラス名
     }
 } //クラス END
 ```
-# OutPut:
-![output](/assets/image/2019-11-02 23.47.33.png)
-このようになります。
+## Java テクノロジーの特徴
 
-編集中。。。。。。
+1. Write Once 、Run Anywhere （一度書けばどこでも働く）
+2. JVMによる処理　（Java仮想マシン）
+3. 開発環境と実行環境の無償公開
+4. オブジェクト指向　（安全で効率の良い開発ができる）
+5. 充実したクラスライブラリ（APIーApplication Program Interface）
+
+### Javaのエデｲション　「Java SE 、Java ME、Java EE 」
+
+| プラットフォーム | 説明                                 |
+| ---------------- | :----------------------------------- |
+| Java SE          | 基本的なソフトウェア開発環境         |
+| Java EE          | Webアプリケーションなどの開発環境    |
+| Java ME          | 携帯電話やスマホ、家電などの開発環境 |
+
+### プログラム実行までの流れ
+
+1. プログラムの作成
+2. javacコマンドによるコンパイル
+3. javaコマンドによる実行
+
+サポートリンク：[Java Download ](https://www.java.com/ja/)
+
