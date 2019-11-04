@@ -5,6 +5,7 @@ google_analytics: UA-151151983-1
 header_pages:
   - index.md
   - about.md
+  - link.md
  # - 404.md
 footer: 'follow me on <a href="https://github.com/summersnowwintercat/">github</a>'
 
