@@ -25,18 +25,22 @@ public class WinterCatDemo{ //クラス名
 
 1. 整数リテラル　＞「10進数、８進数、１６進数、２進数を表現」
 2. 浮動小数点数リテラル　＞「10進数、指数を表現」
-3. 文字リテラル　＞「一つの文字　『'A'』」
-4. 文字列リテラル　＞「複数文字の集合『"Hello"』　」
+3. 文字リテラル　＞「一つの文字　『`'A'`』」
+4. 文字列リテラル　＞「複数文字の集合『`"Hello"`』　」
 5. 論理値リテラル　＞真「True」偽「False」
 6. nullリテラル　　＞何もなく
 
 ### 変数の宣言と値の代入
 
 ```Java
-//データ型　変数名
-//変数名　＝　値
-int cat ;
-cat = 100;
+public class WinterCatDemo{ //クラス名
+  	public static void main(String[] args){　//Mainメソッド		
+					//データ型　変数名
+					//変数名　＝　値
+            int cat ;
+            cat = 100;
+    }
+}
 ```
 
 ### 定数
@@ -51,8 +55,12 @@ cat = 200; // ERROR
 ### 文字列
 
 ```Java
-String cat ="Hello Cat";
-String test = "test";
+public class WinterCatDemo{ //クラス名
+  	public static void main(String[] args){　//Mainメソッド	
+                String cat ="Hello Cat";
+                String test = "test";
+    }
+}
 ```
 
 ### 識別子と予約語
@@ -66,11 +74,15 @@ String test = "test";
 ### 配列
 
 ```Java
-//データ型[] 配列名
-//配列名 = new データ型[要素数]
-int[] cat ;
-cat = new int[20];
-//------------------
-int[] cat = new cat[20];
+public class WinterCatDemo{ //クラス名
+  	public static void main(String[] args){　//Mainメソッド		
+		//データ型[] 配列名
+		//配列名 = new データ型[要素数]
+		int[] cat ;
+		cat = new int[20];
+		//------------------
+		int[] cat = new cat[20];
+    }
+}
 ```
 
