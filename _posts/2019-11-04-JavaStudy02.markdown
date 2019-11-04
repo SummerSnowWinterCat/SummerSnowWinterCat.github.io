@@ -32,7 +32,7 @@ public class WinterCatDemo{ //クラス名
 
 ### 変数の宣言と値の代入
 
-```Java
+```java
 public class WinterCatDemo{ //クラス名
   	public static void main(String[] args){　//Mainメソッド		
 					//データ型　変数名
@@ -45,7 +45,7 @@ public class WinterCatDemo{ //クラス名
 
 ### 定数
 
-```Java
+```java
 //final データ型　定数名 = 初期値;
 final int cat = 100;
 cat = 200; // ERROR
@@ -54,7 +54,7 @@ cat = 200; // ERROR
 
 ### 文字列
 
-```Java
+```java
 public class WinterCatDemo{ //クラス名
   	public static void main(String[] args){　//Mainメソッド	
                 String cat ="Hello Cat";
@@ -73,7 +73,7 @@ public class WinterCatDemo{ //クラス名
 
 ### 配列
 
-```Java
+```java
 public class WinterCatDemo{ //クラス名
   	public static void main(String[] args){　//Mainメソッド		
 		//データ型[] 配列名
