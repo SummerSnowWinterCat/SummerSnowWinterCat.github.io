@@ -5,11 +5,11 @@
  * Style variables
  */
 $base-font-family:     'Source Code Pro', monospace !default;
-$base-font-size:       16.5px !default;
-$mobile-font-size:     16px !default;
+$base-font-size:       18.5px !default;
+$mobile-font-size:     18px !default;
 $base-line-height:     1.6 !default;
 $container-width:      100% !default;
-$container-max-width:  770px !default;
+$container-max-width:  730px !default;
 
 /**
  * Global
@@ -84,7 +84,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0px;  
 .highlight .o { font-weight: bold } /* Operator */
 .highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
-.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .c1 { color: #D09455; font-style: italic } /* Comment.Single 注释的颜色 */
 .highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
 .highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
@@ -102,17 +102,17 @@ pre { background-color: var(--background-color);  border: none;  padding: 0px;  
 .highlight .kd { font-weight: bold } /* Keyword.Declaration */
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .kt { color: #5BBB85; font-weight: bold } /* 属性int void颜色 */
 .highlight .m { color: #009999 } /* Literal.Number */
-.highlight .s { color: #d14 } /* Literal.String */
-.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .s { color: #C0706E } /* Literal.String[R] String的颜色 */
+.highlight .na { color: #B1B7BD } /* out print color */
 .highlight .nb { color: #0086B3 } /* Name.Builtin */
-.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .nc { color: #AF88BB; font-weight: bold } /* public system的颜色 */
 .highlight .no { color: #008080 } /* Name.Constant */
 .highlight .ni { color: #800080 } /* Name.Entity */
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
-.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nf { color: #8C8FE9; font-weight: bold } /* Function的颜色 */
+.highlight .nn { color: #C0706E } /* Name.Namespace  import 颜色*/
 .highlight .nt { color: #000080 } /* Name.Tag */
 .highlight .nv { color: #008080 } /* Name.Variable */
 .highlight .ow { font-weight: bold } /* Operator.Word */
